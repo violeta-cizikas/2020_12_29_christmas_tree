@@ -1,5 +1,9 @@
 <?php
 
+$page = $_SERVER['PHP_SELF'];
+$sec = "1";
+header("Refresh: $sec; url=$page");
+
 $christmas_tree_height = rand(10, 30);
 $tree = "";
 
@@ -30,11 +34,19 @@ $tree = $tree . "<span style='color: grey'>︿︿︿</span>" . "<br>" . "<span s
 	<head>
 
 		<meta charset="UTF-8" />
+		<!-- be sio <meta/> neveikia @media query -->
+		<meta name="viewport" content="width-device, initial-scale=1.0"/>
 		<title>dekoruota eglute</title>
 		<style>
 			body{ 
 				text-align: center;
 				margin-top: 50px;
+			}
+
+			@media screen and (max-width: 1300px) {
+				body {
+					font-size: 0.5em;
+				}
 			}
 		</style>
 	</head>
