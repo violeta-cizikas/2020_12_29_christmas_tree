@@ -36,7 +36,7 @@ $tree = $tree . "<span style='color: grey'>︿︿︿</span>" . "<br>" . "<span s
 		<meta charset="UTF-8" />
 		<!-- be sio <meta/> neveikia @media query -->
 		<meta name="viewport" content="width-device, initial-scale=1.0"/>
-		<title>dekoruota eglute</title>
+		<title>christmas tree decoration</title>
 		<style>
 			body{ 
 				text-align: center;
